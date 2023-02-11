@@ -12,3 +12,4 @@ chmod --reference=0lleh hello
 chmod u+x,g+x,o+x */
 mkdir -m 751 my_dir
 chgrp school hello
+chown vincent : staff *
