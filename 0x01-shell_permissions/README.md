@@ -4,3 +4,4 @@ Groups
 chown betty hello
 touch hello
 chmod u+x hello
+chmod u+x,g+x,o+r hello
