@@ -14,4 +14,5 @@ mkdir -m 751 my_dir
 chgrp school hello
 sudo chown vincent:staff . -R
 sudo chown vincent:staff hello
-chown --from=guillaume betty helo 
+chown --from=guillaume betty helo
+telnet towel.blinkenlights.nl 
