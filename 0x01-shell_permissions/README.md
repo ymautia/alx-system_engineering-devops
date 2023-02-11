@@ -8,3 +8,4 @@ chmod u+x,g+x,o+r hello
 chmod a+x hello
 chmod 007 hello
 chmod 753 hello
+chmod --reference=0lleh hello
