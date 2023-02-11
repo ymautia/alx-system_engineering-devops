@@ -5,5 +5,6 @@ chown betty hello
 touch hello
 chmod u+x hello
 chmod u+x,g+x,o+r hello
-a+x hello
-007 hello
+chmod a+x hello
+chmod 007 hello
+chmod 753 hello
