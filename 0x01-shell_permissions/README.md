@@ -10,3 +10,4 @@ chmod 007 hello
 chmod 753 hello
 chmod --reference=0lleh hello
 chmod u+x,g+x,o+x */
+mkdir -m 751 my_dir
