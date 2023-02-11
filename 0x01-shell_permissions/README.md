@@ -13,6 +13,6 @@ chmod u+x,g+x,o+x */
 mkdir -m 751 my_dir
 chgrp school hello
 sudo chown vincent:staff . -R
-sudo chown vincent:staff hello
+chown vincent:staff hello
 chown --from=guillaume betty helo
 telnet towel.blinkenlights.nl 
