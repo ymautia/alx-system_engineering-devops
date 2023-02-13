@@ -15,3 +15,4 @@ sort | uniq -u
 grep root /etc/passwd
 grep -c bin /etc/passwd
 grep root /etc/passwd --after-context=3
+grep -v bin /etc/passwd
