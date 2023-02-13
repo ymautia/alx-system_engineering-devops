@@ -10,3 +10,4 @@ ls -la > ls_cwd_content
 tail -1 iacta >> iacta
 find -name "*.js" -type f -delete
 find -mindepth 1 -type d | wc -l
+ls -t | head -10
