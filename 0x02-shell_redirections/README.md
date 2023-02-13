@@ -19,3 +19,4 @@ grep -v bin /etc/passwd
 grep '^[[:alpha:]]' /etc/ssh/sshd_config
 tr Ac Ze
 tr -d cC
+rev
