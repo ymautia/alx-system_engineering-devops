@@ -1,3 +1,3 @@
 echo Hello, world
 echo "\"(Ôo)'"
-find -name "*.js" -type f -delete
+cat /etc/passwd
