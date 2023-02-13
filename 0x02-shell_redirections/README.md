@@ -24,3 +24,4 @@ cut -d":" -f 1,6 /etc/passwd | sort
 find . -empty -printf "%f\n"
 find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
 echo -ne $(cut -c-1 | tr -d '\n')'\n'
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11
