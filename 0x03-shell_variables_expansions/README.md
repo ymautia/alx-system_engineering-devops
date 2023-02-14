@@ -7,3 +7,4 @@ set
 BETTY="Holberton"
 export HOLBERTON="Betty"
 echo $(( 128 + $TRUEKNOWLEDGE ))
+echo $(( $POWER / $DIVIDE ))
