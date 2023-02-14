@@ -1,2 +1,2 @@
-lias ls="rm *"i
+#!/bin/bash
 echo "hello "$USER
