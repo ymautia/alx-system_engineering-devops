@@ -5,3 +5,4 @@ echo $PATH | tr ':' '\n' | wc -l
 printenv
 set
 BETTY="Holberton"
+export HOLBERTON="Betty"
