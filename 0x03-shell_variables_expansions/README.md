@@ -15,4 +15,4 @@ printf '%.2f\n' $NUM
 printf '%x\n' $DECIMAL
 tr 'A-Za-z' 'N-ZA-Mn-za-m'
 paste - - | cut -f1i
-printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 bestcho
+printf '%o\n' $(( $((5#$(echo $STIR | tr 'stir.' '01234'))) + $((5#$(echo $WATER | tr 'water' '01234'))) )) | tr '01234567' 'bestchol'
